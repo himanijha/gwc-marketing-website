@@ -9,14 +9,24 @@
 			font-size: 50px;
 		}
 		.product-image {
-			display: block;
-			width: 100%;
+			position: relative;
+		}
+		.product-caption {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			color: white;
 		}
 	</style>
 	<body>
 		<img src="logo.jpg" height=50><h1 class="navigation-title">Game Tree</h1>
 		<a href="/gwc-marketing-website/products">
-			<img class="product-image" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Family_playing_a_board.jpg" alt="People playing a board game">
+			<div>
+				<img class="product-image" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Family_playing_a_board.jpg" alt="People playing a board game">
+				<p class="product-caption"> Our newest products</p>
+			</div>
 		</a>
 		<a href="/gwc-marketing-website/contact">Contact us Page</a>
 		<a href="/gwc-marketing-website/about">About us Page</a>
